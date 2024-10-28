@@ -1,0 +1,7 @@
+def test():
+    def inner():
+        print("Я в зоне видимости test")
+    inner()
+
+test()
+inner()
